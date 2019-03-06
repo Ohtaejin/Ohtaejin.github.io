@@ -2,7 +2,7 @@
 
 layout: post
 title: "Github와 Git에 대하여"
-tags: [ Github . Git ]
+tags: [ Github , Git ]
 
 ---
 
