@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+궁금하신 사항이 있다면 아래 메일주소로 연락 주시면 답변해 드리겠습니다.
 
-### More Information
+### 메일주소
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+[ohtaijin@ohnew.co.kr](mailto:ohtaijin@ohnew.co.kr)
