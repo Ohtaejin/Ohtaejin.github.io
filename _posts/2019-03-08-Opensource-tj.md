@@ -10,15 +10,15 @@ comments: true
 ---
 
 
-#오픈소스의 정의와 트렌드
+# 오픈소스의 정의와 트렌드
 
-##1.	오픈소스의 정의
+## 1.	오픈소스의 정의
 
-####오픈소스란?
+#### 오픈소스란?
 
 -	소프트웨어 혹은 하드웨어의 제작자 권리를 지키면서, 원시 코드를 누구나 열람할 수 있도록 한 소프트웨어 혹은 오픈소스 라이선스에 준하는 모든 통칭을 일컫는다. 일반적으로 오픈소스 소프트웨어에 대한 코드를 자유롭게 열람하거나, 사용, 복사, 수정 및 재 배포의 권한(자유)을 부여 받는다. 대표적인 오픈소스의 사례로 리눅스(Linux)운영체제가 있는데, 누구나 무료로 이용할 수 있으며 공개된 코드를 기반으로 프로그램을 마음대로 변형 할 수 있다.
 
-####왜 소스를 오픈하는가? 왜 코드를 오픈하는가?
+#### 왜 소스를 오픈하는가? 왜 코드를 오픈하는가?
 
 -	이미 있는 오픈소스를 포크(Fork)하여 새 프로젝트가 만들어지는 경우, 라이선스 때문에 공개해야 한다.
 -	소프트웨어를 더 좋게 만들기 위해. 외부 개발자들이 참여하도록 하면 더 다양한 환경에서 소프트웨어를 시험해보고 품질을 높일 수 있다.
@@ -26,51 +26,51 @@ comments: true
 -	프로그램의 신뢰성을 보장하는 방법이 될 수 있다.
 -	다수의 개발자, 사용자가 참여하는 오픈소스가 소수의 개발자들에 의해 비밀스럽게 관리되어지는 상용 소프트웨어보다 기술 발전속도가 월등히 빠르기 때문이다.
 
-####오픈소스의 장점?
+#### 오픈소스의 장점?
 
 -	이용하는데 비용이 들지 않거나 적다.
 -	보안 취약점이 쉽게 발견된다.
 
-####오픈소스의 단점?
+#### 오픈소스의 단점?
 
 -	숙련되지 않은 사용자들은 사용이 어렵다.
 -	이미 표준적으로 사용하는 소프트웨어가 있는 경우엔 호환성 문제가 발생한다.
 -	고객지원이 불리하다.
 
-##2.	오픈소스 재단?
+## 2.	오픈소스 재단?
 
-####-	왜 만들어 지는가?
+#### -	왜 만들어 지는가?
 	오픈소스 소프트웨어가 점차 상업화 되어가는 경향에 따라서 기업들이 신뢰할 수 있는 비영리 독립 단체를 통해 오픈소스 프로젝트를 공동 추진할 수 있다고 생각함에 따라 재단 설립이 증가하고있다.
 
 
-####-	어떠한 일을 하는가?
+#### -	어떠한 일을 하는가?
 	프로젝트를 할 수 있는 기본적인 인프라 제공
 	컨퍼런스, 이벤트, 기부금 등 세금 관련된 업무 처리
 	라이선스, 특허, 표준 약관, 상표 관리 등 법률적인 문제 대응
 
 
-####-	주요 오픈소스 재단?
+#### -	주요 오픈소스 재단?
 
-#####	Apache Software Foundation (ASF)
+##### 	Apache Software Foundation (ASF)
 
 ![asf_logo](https://user-images.githubusercontent.com/22653307/54002680-d8cf3680-4192-11e9-93a8-79947dff3cde.JPG)
 
 - 전 세계적으로 가장 많이 사용되고 있는 웹 서버 소프트웨어인 아파치 HTTP 서버, 빅 데이터 분석 플랫폼인 아파치 하둡(Hadoop), 자바 애플리케이션 서버인 아파치 톰캣(Tomcat) 등 350여 오픈소스 프로젝트를 관장하며, 지원 조직과 법, 재무 지원을 제공한다. 그리고 아파치 라이선스로 소프트웨어를 배포하고 있다.
 
-#####	Software Freedom Conservancy
+##### 	Software Freedom Conservancy
 
 ![software_freedom_conservancy](https://user-images.githubusercontent.com/22653307/54002912-9bb77400-4193-11e9-9279-11a714122de4.JPG)
 
 - Git, Samba, Wine 등 33개 프로젝트 관리.
 - GPL 의무화를 위한 GPL Compliance Project를 추진.
 
-#####	Linux Foundation
+##### 	Linux Foundation
 
 ![linux_foundation_logo](https://user-images.githubusercontent.com/22653307/54002757-0ae09880-4193-11e9-8d53-bbf2d17e3596.JPG)
 
 - 리눅스 커널을 후원. 최근 사물인터넷(IoT), 모바일 및 임베디드 소프트웨어, 클라우드 관련 프로젝트를 지원하고 있다.
 
-#####	Eclipse Foundation
+##### 	Eclipse Foundation
 
 ![eclipse_foundaion_logo](https://user-images.githubusercontent.com/22653307/54002743-0320f400-4193-11e9-9eb8-b4469321b535.JPG)
 
@@ -78,36 +78,36 @@ comments: true
 
 
 
-#####	Cloud Foundry Foundation
+##### 	Cloud Foundry Foundation
 
 ![cloud_foundry_foundation_logo](https://user-images.githubusercontent.com/22653307/54002740-00260380-4193-11e9-9c86-c442f2189756.JPG)
 
 - 클라우드 구축에 필요한 인프라 소프트웨어들을 관리.
 - EMC, HP, IBM, Intel, SAP등의 벤더가 공동 참여
 
-#####	Free Software Foundation (FSF)
+##### 	Free Software Foundation (FSF)
 
 ![free_software_foundation](https://user-images.githubusercontent.com/22653307/54002748-05834e00-4193-11e9-874a-a5d5ce27d748.JPG)
 
 - 리처드 스톨만이 창립했으며, 소프트웨어의 자유로운 사용에 초점을 맞추고 있음.
 - 무료 운영 시스템 구현에 목표를 둔 GNU 프로젝트만 관리.
 
-#####	Open Source Initiative (OSI)
+##### 	Open Source Initiative (OSI)
 
 ![open_source_initiative_logo](https://user-images.githubusercontent.com/22653307/54003134-6eb79100-4194-11e9-8ce0-d77f79b58bc5.JPG)
 
  - 특정 프로젝트가 아닌 소프트웨어 ‘운동’을 지원.|
  - FSF 와의 차이점은 FSF는 소프트웨어의 ‘자유’에 초점을 맞추지만, OSI는 ‘오픈소스 소프트웨어’에 초점을 맞추고 있다.
 
-#####	Openstack Foundation
+##### 	Openstack Foundation
 
 ![openstack_foundation_logo](https://user-images.githubusercontent.com/22653307/54002917-9fe39180-4193-11e9-9061-a7d9bac909f5.JPG)
 
  - 오픈스택 클라우드 운영 시스템 프로젝트.
 
-##3.	성공한 오픈소스 프로젝트?
+## 3.	성공한 오픈소스 프로젝트?
 
-#####	리눅스(Linux)
+##### 	리눅스(Linux)
 
 ![linux_logo](https://user-images.githubusercontent.com/22653307/54002761-0e741f80-4193-11e9-815b-892465d21a25.JPG)
 
@@ -115,7 +115,7 @@ comments: true
 * x86기반에서 벗어나 임베디드 기기, 모바일 등 다양한 하드웨어에 사용.
 * 거의 모든 안드로이드 스마트폰 단말에 사용.
 
-#####	MySQL(MariaDB)
+##### 	MySQL(MariaDB)
 
 ![mysql_mariadb_logos](https://user-images.githubusercontent.com/22653307/54002769-15029700-4193-11e9-8081-e3eafb7096be.JPG)
 
@@ -124,28 +124,28 @@ comments: true
 * MySQL이 오라클로 넘어간 뒤, 불확실한 라이선스 문제들을 해결하려고 나온 오픈소스 DBMS(데이터베이스 매니져 시스템) 가 MariaDB이다.
 
 
-##### Apache HTTP Server
+#####  Apache HTTP Server
 
 ![apache http server](https://user-images.githubusercontent.com/22653307/54003161-8d1d8c80-4194-11e9-8a44-1a7b0d5391ee.JPG)
 
 
 * Apache 재단의 대표 프로젝트로 전 세계적으로 가장 많이 사용하는 웹 서버이다.
 
-#####		Hadoop
+##### 		Hadoop
 
 ![hadoop_logo](https://user-images.githubusercontent.com/22653307/54002750-074d1180-4193-11e9-9ac1-d68e4d581a5e.JPG)
 
 * 빅 데이터 분야의 대표적인 오픈소스 프로젝트.
 * 모바일, 사물인터넷에 기반한 급속한 데이터 증가에 따라 더욱 중요도 증가.
 
-#####	Openstack
+##### 	Openstack
 
 ![openstack_foundation_logo](https://user-images.githubusercontent.com/22653307/54002917-9fe39180-4193-11e9-9061-a7d9bac909f5.JPG)
 
 * 오픈소스 클라우드 운영 시스템.
 * 클라우드 시스템 구축에 필요한 컴퓨팅, 네트워크, 스토리지 자원에 대한 가상화 및 운영관리는 물론이고, 보안, 워크플로우 등 거의 모든 요구사항을 지원하는 사실상의 표준 운영 시스템.
 
-##4.	오픈소스의 트렌드 – 과거 및 현재
+## 4.	오픈소스의 트렌드 – 과거 및 현재
 
 -	IT 역사에서의 오픈소스
 
@@ -172,7 +172,7 @@ Free Software 운동 시작 후 자유소프트웨어 재단(FSF) 설립.
 
 
 
-##5.	오픈소스의 트렌드 – 미래
+## 5.	오픈소스의 트렌드 – 미래
 
 ![sw _](https://user-images.githubusercontent.com/22653307/54003194-b0e0d280-4194-11e9-94fd-be17a9c3fc43.jpg)
 
@@ -188,7 +188,7 @@ Free Software 운동 시작 후 자유소프트웨어 재단(FSF) 설립.
 하지만 국내 기업들의 움직임은 미진한 편. 깃허브, 리눅스 재단 등에서도 국내 개발자들은 프로젝트에 참여하는 것 보다는 주로 결과만 이용한다는 시선을 받고 있다. 
 
 
-##6.	조사 이후 느낀점
+## 6.	조사 이후 느낀점
 
 - 오픈소스에 대해 조사를 하기 전에는 왜 기업들, 사람들이 자신의 무기가 될 수 있는 소스코드를 오픈하는지에 대해 의문감을 가지고 있었다. 그러나 조사를 하면서 내 생각은 너무 좁게만 알고 있었다 라고 느껴졌다. 위에 조사자료 중 특히 장점부분에서 많은 깨달음을 얻을 수 있었다. 실제로 자료를 찾아보던 도중, 내 생각에 상당히 깊이 박힌 설명 자료가 있었는데, 
  - 자동차 동호회 회원들이 모여서 취미로 자동차를 만들기로 했다. 자동차에 관심만 있으면 누구나 자동차 제작에 참여할 수 있다. 내가 재미있어서 하는 것이기 때문에 급여는 없다. 하지만 그 결과물로 나온 자동차가 전 세계에서 유수의 기업들과 동등하게 경쟁을 할 수 있다면?
@@ -196,7 +196,7 @@ Free Software 운동 시작 후 자유소프트웨어 재단(FSF) 설립.
  위의 설명 자료에서 말해준 오픈 소스의 원칙은 개방, 참여, 공유 였다. 경제적으로는 절대 성공하지 못할 것 같은 허무맹랑한 이야기로 예시를 들었다고 생각했는데, 놀랍게도 위에 나온 예시가 실제로 존재하는 회사라고 한다. 로컬 모터스(Local Motos)라는 회사의 이야기라고 하는데, 세계 최초의 오픈소스 자동차인 랠리 파이터를 만들고, 지금도 IBM과 합작해 자율 주행차를 만들고 있다고 한다.
  오픈소스 시장은 미래가 더욱더 돋보이는 블루오션이라고 한다. 나도 이러한 시장에 아직은 걸음마도 떼지 못했지만, 앞으로 발을 디딜 생각을하니 열심히 배워봐야겠다고 생각이 들었다.
 
-##7.	용어 설명 및 더 알아보기
+## 7.	용어 설명 및 더 알아보기
 
 - Samba : window 운영체제를 사용하는 PC에서 Linux 또는 UNIX 서버에 접속하여 파일이나 프린터를 공유하여 사용할 수 있도록 해주는 소프트웨어.
 - Wine : window 전용 프로그램을 UNIX 계열 운영체제에 실행하기 위한 호환성 레이어이다.
