@@ -96,7 +96,7 @@ comments: true
 
 ![open_source_initiative_logo](https://user-images.githubusercontent.com/22653307/54003134-6eb79100-4194-11e9-8ce0-d77f79b58bc5.JPG)
 
- - 특정 프로젝트가 아닌 소프트웨어 ‘운동’을 지원.|
+ - 특정 프로젝트가 아닌 소프트웨어 ‘운동’을 지원.
  - FSF 와의 차이점은 FSF는 소프트웨어의 ‘자유’에 초점을 맞추지만, OSI는 ‘오픈소스 소프트웨어’에 초점을 맞추고 있다.
 
 ##### 	Openstack Foundation
