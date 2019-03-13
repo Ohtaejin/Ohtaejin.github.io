@@ -195,7 +195,7 @@ https://db-engines.com/en
 http://boansecurity.blogspot.com/2016/06/opensourcedb-dbms.html
 
 오픈소스 DBMS
-https://recoveryman.tistory.com/26
+https://recoveryman.tistory.com/261
 
 한눈에 살펴보는 PostgreSQL
 https://d2.naver.com/helloworld/227936
