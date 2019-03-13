@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "OpenSource 추가 조사자료 및 후기"
