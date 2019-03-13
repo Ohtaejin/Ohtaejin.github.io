@@ -185,24 +185,23 @@ comments: true
 
 ## 참고 사이트
 
-위키백과
+[위키백과](https://ko.wikipedia.org/wiki/)
 https://ko.wikipedia.org/wiki/
 
-데이터베이스엔진 랭킹 사이트
+[데이터베이스엔진 랭킹 사이트](https://db-engines.com/en)
 https://db-engines.com/en
 
-오픈소스 DBMS 종류 및 특징
+[오픈소스 DBMS 종류 및 특징](http://boansecurity.blogspot.com/2016/06/opensourcedb-dbms.html)
 http://boansecurity.blogspot.com/2016/06/opensourcedb-dbms.html
 
-오픈소스 DBMS
+[오픈소스 DBMS](https://recoveryman.tistory.com/261)
 https://recoveryman.tistory.com/261
 
-한눈에 살펴보는 PostgreSQL
+[한눈에 살펴보는 PostgreSQL](https://d2.naver.com/helloworld/227936)
 https://d2.naver.com/helloworld/227936
 
-열받은 몽고DB, 오픈소스 라이선스 변경
+[열받은 몽고DB, 오픈소스 라이선스 변경](http://www.zdnet.co.kr/view/?no=20181018170528)
 http://www.zdnet.co.kr/view/?no=20181018170528
 
-SQLite 라이선스
+[SQLite 라이선스](https://xetown.com/old/173021)
 https://xetown.com/old/173021
-
