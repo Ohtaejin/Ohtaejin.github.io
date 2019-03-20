@@ -14,6 +14,7 @@ CentOS7버전에서 MariaDB, MySQL, PerconaDB를 설치하는 방법
 참고 사이트
 
 [MariaDB.com](https://mariadb.com/kb/en/library/yum/)
+
 https://mariadb.com/kb/en/library/yum/
 
 - curl -sS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | sudo bash
@@ -33,6 +34,7 @@ mariadb 설치시 replaced가 mysql로 되어서 mysql을 실행시킴
 참고 사이트
 
 [mysql.com](https://dev.mysql.com/doc/mysql-yum-repo-quick-guide/en/#repo-qg-yum-installing)
+
 https://dev.mysql.com/doc/mysql-yum-repo-quick-guide/en/#repo-qg-yum-installing
 
 - rpm -ivh https://dev.mysql.com/get/mysql80-community-release-el7-2.noarch.rpm
@@ -52,6 +54,7 @@ mysql 실행
 참고 사이트
 
 [percona.com](https://www.percona.com/doc/percona-server/5.7/installation/yum_repo.html)
+
 https://www.percona.com/doc/percona-server/5.7/installation/yum_repo.html
 
 - yum install https://repo.percona.com/yum/percona-release-latest.noarch.rpm
