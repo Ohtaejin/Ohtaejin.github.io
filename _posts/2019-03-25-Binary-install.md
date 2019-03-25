@@ -64,8 +64,11 @@ CentOS7버전에서 MariaDB를 binary 형식으로 설치해보기
 6. 소유권 변경 >>> maria.dba에서 사용하려고
 
 	~]# chown -R maria.dba /usr/local/mariadb-버전
+
 	~]# chown -R maria.dba /usr/local/mariadb
+
 	~]# chown -R maria.dba /DATA
+
 	~]# chown -R maria.dba /LOG
 
 7. etc 디렉토리 안에 my.cnf 생성 >>> 꼭 etc 디렉토리 안에 생성 안해도 된다.
@@ -73,34 +76,49 @@ CentOS7버전에서 MariaDB를 binary 형식으로 설치해보기
 	(초기 셋팅값)
 	
 	[mysqld] 
+
 	user = maria 
+
 	port = 3306 
+
 	socket = /tmp/mysql.sock 
+
 	basedir = /usr/local/mariadb 
+
 	datadir = /DATA 
+
 	transaction_isolation = REPEATABLE-READ 
+
 	innodb_data_home_dir = /DATA 
+
 	innodb_buffer_pool_size = 512M 
+
 	innodb_log_file_size = 128M 
+
 	log-error = /LOG/maria_error.log
 
 8. 데이터베이스 설치
 
-	~]$ /usr/local/mariadb/scripts/mysql_install_db --defaults-file=/etc/my.cnf --basedir=/usr/local/mariadb
+	~]$ /usr/local/mariadb/scripts/mysql_install_db 
+	--defaults-file=/etc/my.cnf
+	--basedir=/usr/local/mariadb
 
 9. 서비스 등록
 
 	~]# cp /usr/local/mariadb/support-files/mysql.server /etc/init.d/maria 
+	
 	~]# vi /etc/init.d/maria 
 
 	line 46, 47 basedir, datadir 수정
 	
 	basedir=/usr/local/mariadb 
+	
 	datadir=/DATA
 
 10. 실행
 
 	su – maria
+
 	service maria start
 
 	설치 되어있는 /bin 폴더로 이동
