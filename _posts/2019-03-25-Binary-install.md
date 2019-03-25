@@ -45,23 +45,23 @@ CentOS7버전에서 MariaDB를 binary 형식으로 설치해보기
 	~]# groupadd dba
 	~]# useradd -g dba maria
 
-3. DATA와 LOG 디렉토리를 생성해준다.
+<h4> 3. DATA와 LOG 디렉토리를 생성해준다.</h4> 
 
 	~]# mkdir /DATA
 	~]# mkdir /LOG
 
-4. tar 파일 압축 해제
+<h4> 4. tar 파일 압축 해제</h4> 
 
 	~]# tar -zxvf mariadb-10.2.8-linux-x86_64.tar.gz -C /usr/local/
 
-5. 심볼릭 링크 설정 >>> 알아보기 쉽게 하려고
+<h4> 5. 심볼릭 링크 설정</h4>  >>> 알아보기 쉽게 하려고 
 
 	~]# cd /usr/local
 	local]# mv mariadb-버전-linux-x86_64 mariadb-버전
 	local]# ln -s mariadb-버전 mariadb
 	local]# ll
 
-6. 소유권 변경 >>> maria.dba에서 사용하려고
+<h4> 6. 소유권 변경</h4>  >>> maria.dba에서 사용하려고
 
 	~]# chown -R maria.dba /usr/local/mariadb-버전
 
@@ -71,7 +71,7 @@ CentOS7버전에서 MariaDB를 binary 형식으로 설치해보기
 
 	~]# chown -R maria.dba /LOG
 
-7. etc 디렉토리 안에 my.cnf 생성 >>> 꼭 etc 디렉토리 안에 생성 안해도 된다.
+<h4> 7. etc 디렉토리 안에 my.cnf 생성</h4>  >>> 꼭 etc 디렉토리 안에 생성 안해도 된다.
 	
 	(초기 셋팅값)
 	
@@ -97,13 +97,13 @@ CentOS7버전에서 MariaDB를 binary 형식으로 설치해보기
 
 	log-error = /LOG/maria_error.log
 
-8. 데이터베이스 설치
+<h4> 8. 데이터베이스 설치</h4> 
 
 	~]$ /usr/local/mariadb/scripts/mysql_install_db 
 	--defaults-file=/etc/my.cnf
 	--basedir=/usr/local/mariadb
 
-9. 서비스 등록
+<h4> 9. 서비스 등록</h4> 
 
 	~]# cp /usr/local/mariadb/support-files/mysql.server /etc/init.d/maria 
 	
@@ -115,7 +115,7 @@ CentOS7버전에서 MariaDB를 binary 형식으로 설치해보기
 	
 	datadir=/DATA
 
-10. 실행
+<h4> 10. 실행</h4> 
 
 	su – maria
 
