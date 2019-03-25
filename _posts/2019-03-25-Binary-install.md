@@ -46,6 +46,7 @@ CentOS7버전에서 MariaDB를 binary 형식으로 설치해보기
 	~]# useradd -g dba maria
 
 3. DATA와 LOG 디렉토리를 생성해준다.
+
 	~]# mkdir /DATA
 	~]# mkdir /LOG
 
