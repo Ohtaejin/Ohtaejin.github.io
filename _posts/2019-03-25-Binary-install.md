@@ -60,7 +60,7 @@ CentOS7버전에서 MariaDB를 binary 형식으로 설치해보기
 	local]# ln -s mariadb-버전 mariadb
 	local]# ll
 
-6.  소유권 변경 >>> maria.dba에서 사용하려고
+6. 소유권 변경 >>> maria.dba에서 사용하려고
 
 	~]# chown -R maria.dba /usr/local/mariadb-버전
 	~]# chown -R maria.dba /usr/local/mariadb
