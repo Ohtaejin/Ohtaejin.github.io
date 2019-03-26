@@ -36,7 +36,7 @@ CentOS7버전에서 MariaDB를 binary 형식으로 설치해보기
 
 <h4> 1. tar.gz 파일을 다운로드한다.</h4> 
 
-	주소 : (https://downloads.mariadb.org/mariadb/)
+	주소 : [https://downloads.mariadb.org/mariadb/](https://downloads.mariadb.org/mariadb/)
 
 	참고. wget을 사용하려면 yum -y install wget 으로 wget먼저 설치 후 사용
 
