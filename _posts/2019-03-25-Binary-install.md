@@ -52,7 +52,7 @@ CentOS7버전에서 MariaDB를 binary 형식으로 설치해보기
 
 <h4> 4. tar 파일 압축 해제</h4> 
 
-	~]# tar -zxvf mariadb-10.2.8-linux-x86_64.tar.gz -C /usr/local/
+	~]# tar -zxvf mariadb-10.3.13-linux-x86_64.tar.gz -C /usr/local/
 
 <h4> 5. 심볼릭 링크 설정</h4>  >>> 알아보기 쉽게 하려고 
 
