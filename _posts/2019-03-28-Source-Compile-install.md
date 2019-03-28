@@ -36,7 +36,7 @@ CentOS7버전에서 MariaDB를 Source Compile 형식으로 설치해보기
     11.	MariaDB 실행
 
 
-### 세부 과정
+## 세부 과정
 
 ##### 1.	설치에 필요한 패키지 설치.
 
@@ -44,7 +44,7 @@ CentOS7버전에서 MariaDB를 Source Compile 형식으로 설치해보기
 
 ##### 2.	MariaDB source file 다운로드
 
-	[바로가기](https://downloads.mariadb.org/) https://downloads.mariadb.org/
+[바로가기](https://downloads.mariadb.org/) https://downloads.mariadb.org/
 
     wget 이용해 다운로드 받는다. 이때 wget을 설치하지 않았다면,
 
