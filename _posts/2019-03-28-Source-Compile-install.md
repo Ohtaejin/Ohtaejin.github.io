@@ -38,7 +38,7 @@ CentOS7버전에서 MariaDB를 Source Compile 형식으로 설치해보기
 
 ## 세부 과정
 
-##### 1.	설치에 필요한 패키지 설치.
+##### 1.	설치에 필요한 패키지 설치
 
 	-yum install -y cmake make gcc gcc-c++ ncurses-devel libevent openssl openssl-devel gnutls-devel
 
